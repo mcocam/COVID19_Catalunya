@@ -16,3 +16,5 @@ Ara com ara, hi ha les següents gràfiques:
 <img src="https://github.com/mcocam/COVID19_Catalunya/blob/main/Gr%C3%A0fiques/20220106_IA14_Cat.png"  width="250" height="347" />
 
 NOTA: la resolució de la gràfica generada és dependent de la resolució del monitor que executa l'script.
+
+Twitter: https://twitter.com/marc_coca
