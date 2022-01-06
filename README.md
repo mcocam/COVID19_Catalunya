@@ -11,7 +11,7 @@ Ara com ara, hi ha les següents gràfiques:
 <img src="https://github.com/mcocam/COVID19_Catalunya/blob/main/Gr%C3%A0fiques/20220106_Hospitalitzats.png"  width="250" height="347" />
 
 
-### Incidència a 14 dies x 100.000 habitants (PCR i TAR solament)
+### Incidència a 14 dies x 100.000 habitants (PCR i TAR)
 
 <img src="https://github.com/mcocam/COVID19_Catalunya/blob/main/Gr%C3%A0fiques/20220106_IA14_Cat.png"  width="250" height="347" />
 
