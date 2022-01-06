@@ -7,6 +7,6 @@ Ara com ara, hi ha les següents gràfiques:
 
 # Incidència a 14 dies x 100.000 habitants (PCR i TAR solament)
 
-![alt text](https://github.com/mcocam/COVID19_Catalunya/blob/main/Gr%C3%A0fiques/20220106_IA14_Cat.png | width=100)
+<img src="https://github.com/mcocam/COVID19_Catalunya/blob/main/Gr%C3%A0fiques/20220106_IA14_Cat.png "  width="200" height="400" />
 
 NOTA: la resolució de la gràfica generada és dependent de la resolució del monitor que executa l'script.
