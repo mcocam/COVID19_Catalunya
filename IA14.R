@@ -167,7 +167,7 @@ if (falten_anys){
 
 variacio = ia14_catalunya$IA14[ia14_catalunya$data == casos_data_max_3] - ia14_catalunya$IA14[ia14_catalunya$data == casos_data_max_3-1]
 signe_variacio = ifelse(variacio == 0, "",
-                   ifelse(variacio >0, "+", "-"))
+                   ifelse(variacio >0, "+", ""))
 
 ia14_catalunya = ia14_catalunya%>%
   filter(data <= casos_data_max_3)%>%
@@ -225,7 +225,7 @@ if (falten_anys) {
 ia14_edats = ia14_edats%>%
   mutate(IA14 = (casos14/pob)*100000)%>%
   mutate(Dif = IA14 - lag(IA14))%>%
-  mutate(signe_v = ifelse(Dif <= 0, "-", "+"))%>%
+  mutate(signe_v = ifelse(Dif <= 0, "", "+"))%>%
   mutate(
     ggLabel = ifelse(dates == casos_data_max_3,
                      paste0(edatrang, ": ", format(round(IA14, 2), dec = ","), " (", signe_v,  format(round(Dif, 2), dec = ","), ")" ),
@@ -290,7 +290,7 @@ ia14_regio = ia14_regio%>%
                                          regiosanitariadescripcio == "BARCELONA CIUTAT" ~ "Barcelona")
   )%>%
   mutate(Dif = IA14 - lag(IA14))%>%
-  mutate(signe_v = ifelse(Dif <= 0, "-", "+"))%>%
+  mutate(signe_v = ifelse(Dif <= 0, "", "+"))%>%
   mutate(
     ggLabel = ifelse(dates == casos_data_max_3,
                      paste0(regiosanitariadescripcio, ": ", format(round(IA14, 2), dec = ","), " (", signe_v,  format(round(Dif, 2), dec = ","), ")" ),
